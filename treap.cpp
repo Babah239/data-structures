@@ -1,8 +1,9 @@
 #include <iostream>
 #include <iterator>
+#include <random>
 #define null NULL
 using namespace std;
-
+std::mt19937 engine;
 struct Treap
 {
 	int x;
@@ -122,5 +123,5 @@ struct Treap
 };
 int main()
 {
-	
+
 }
